@@ -70,3 +70,48 @@ body {
 .menu-bar {
     display: none;
 }
+
+/* MAIN SECTION */
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.content-info {
+    margin-top: 5em;
+    color: #fff;
+
+}
+
+button{
+    cursor: pointer;
+    color: white;
+    box-shadow: 0px 3px 14px -8px rgba(0,0,0,0.78);
+
+}
+
+buttton:hover   {
+    box-shadow: none;
+}
+
+.btn-toBuy, .read-more{
+    background-color: #b61b75;
+    padding: 8px 40px;
+    font-size: 1.2em;
+    border-radius: 20px;
+    border: none;
+}
+
+.read-more{
+    background: none;
+    border: 1px solid white;
+    margin: 20px;
+}
+
+.main img{
+    margin-top: 3em;
+
+}
