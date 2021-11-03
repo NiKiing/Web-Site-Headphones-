@@ -96,12 +96,24 @@
         margin-bottom: 3em;
     }
     
+    /* PRODUCT SECTION */
 
+    #banner {
+        height: 50vh;
+        background-position: center;
+    }
 
+    .banner .rating img {
+        width: 50px;
+    }
 
+    .banner .rating h2 {
+        font-size: 2em;
+    }
 
-
-
+    .banner .secundary-info {
+        display: none;
+    }
 
 
 
