@@ -260,3 +260,27 @@ button:hover   {
 .secundary-info h3 {
   margin-bottom: 10px;
 }
+
+/* FOOTER SECTION */
+
+.footer {
+    background-color: #8c50f1;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .footer .menu li {
+    margin-top: 20px;
+  }
+  
+  .footer .social-network .fab {
+    font-size: 1.8em;
+    margin: 10px;
+  }
+  
+  .footer .social-network .fab:hover {
+    color: #f7b733;
+  }
