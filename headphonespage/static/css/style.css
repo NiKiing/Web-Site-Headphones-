@@ -224,3 +224,39 @@ button:hover   {
     font-weight: 300;
 }
 
+/* BANNER SECTION */
+
+.banner {
+    background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1632803224/img%20headphone/banner_cmqvzm.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: auto;
+    width: 100vw;
+    max-width: 100%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    height: 100vh;
+}
+
+.banner .rating {
+    grid-column: 3 / 4;
+}
+
+.banner .rating {
+    text-align: center;
+}
+
+.banner .secundary-info {
+    grid-column: 8 / 11;
+}
+
+.banner h2 {
+    font-size: 3em;
+
+}
+
+.secundary-info h2,
+.secundary-info h3 {
+  margin-bottom: 10px;
+}
