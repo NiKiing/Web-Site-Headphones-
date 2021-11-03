@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: 845px)
 {
 
     .navbar{
@@ -78,6 +78,23 @@
         margin-top: -10px;
         text-align: center;
       }
+    
+    /* PRODUCT SECTION */
+
+    .products .container-products {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .products h2 {
+        font-size: 2em;
+        margin-top: 2em;
+
+    }
+
+    .products .container-products .btn-product {
+        margin-bottom: 3em;
+    }
     
 
 

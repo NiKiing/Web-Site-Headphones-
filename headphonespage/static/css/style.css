@@ -154,44 +154,55 @@ button:hover   {
 .products h2 {
     text-align: center;
     font-weight: bold;
-}
-
-.products .divider {
+  }
+  
+  .products .divider {
     margin-bottom: 8em;
-}
-
-.products .container-products {
+  }
+  
+  .products .container-products {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-.container-products-info, .content-price, .btn-content {
+  }
+  .content-products-info,
+  .content-price,
+  .btn-content {
     display: flex;
     justify-content: center;
-}
-
-.container-products-info h4 {
+  }
+  
+  .content-product-info {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .content-product-info .stars {
+    margin-right: 20px;
+    text-align: center;
+  
+  }
+  .content-product-info h4 {
     text-transform: uppercase;
     text-align: center;
-}
-
-.products, .content-price, .last-price {
+  }
+  
+  .products .content-price .last-price {
     text-decoration: line-through;
     font-weight: lighter;
     margin-right: 20px;
-}
-
-.products, .content-price, .new-price {
+  }
+  
+  .products .content-price .new-price {
     background-color: #ca4172;
     padding: 5px 10px;
     color: #fff;
-}
-
-.products .btn-content {
+  }
+  
+  .products .btn-product {
     margin: 20px;
     padding: 10px 20px;
     border-radius: 20px;
     border: none;
     color: #000;
-}
+  }
