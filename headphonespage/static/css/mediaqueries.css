@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: 845px)
 {
 
     .navbar{
@@ -79,13 +79,63 @@
         text-align: center;
       }
     
+    /* PRODUCT SECTION */
 
+    .products .container-products {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .products h2 {
+        font-size: 2em;
+        margin-top: 2em;
 
+    }
 
+    .products .container-products .btn-product {
+        margin-bottom: 3em;
+    }
+    
+    /* PRODUCT SECTION */
 
+    #banner {
+        height: 50vh;
+        background-position: center;
+    }
 
+    .banner .rating img {
+        width: 50px;
+    }
 
+    .banner .rating h2 {
+        font-size: 2em;
+    }
 
+    .banner .secundary-info {
+        display: none;
+    }
+
+    /* FOOTER SECTION */
+
+    .footer {
+        flex-direction: column-reverse;
+    }
+
+    .footer .quicklincks .menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer .social-network {
+        margin: 2em;
+    }
+
+    .footer h3 {
+        font-weight: lighter;
+        margin-top: 1em;
+        color: #f7b733;
+    }
 
 }
